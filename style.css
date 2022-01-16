@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+ font-size: 50px;
+}
+section {
+  display: flex;
+}
+.half_width {
+  width: 50%;
+  padding-left: 50px;
+}
+#left_padding{
+    width: 425px;
+    animation: slidein 3s;
+    
+}
+#company_name{
+    color: #ff4004;
+}
+a{
+    text-decoration: none;
+    border-radius: 3px;
+    background: linear-gradient(#ff4004,rgb(126, 57, 69));
+    color: white;
+}
