@@ -1,29 +1,59 @@
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Roboto", sans-serif;
+body{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-image: url(ebu/mama_background.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+color: white;
 }
-h1 {
- font-size: 50px;
+h1{
+  font-size: 45px;
 }
-section {
+.container{
   display: flex;
+  margin-bottom: 200px;
 }
-.half_width {
+.half_width{
   width: 50%;
-  padding-left: 50px;
+  padding-left: 40px;
 }
-#left_padding{
-    width: 425px;
-    animation: slidein 3s;
-    
+#mama{
+  width: 90%;
 }
 #company_name{
-    color: #ff4004;
+  color: #FB7D17;
 }
-a{
-    text-decoration: none;
-    border-radius: 3px;
-    background: linear-gradient(#ff4004,rgb(126, 57, 69));
-    color: white;
+#read{
+  text-decoration: none;
+  border-radius: 6px;
+  color: white;
+  background:linear-gradient(to right,#daad1a, #fd6e0e);
+}
+#area_manger{
+  color: #FB7D17;
+}
+.pra_container{
+  display: flex;
+}
+section{
+  margin-bottom: 70px;
+}
+section h1{
+  padding-left: 30px;
+}
+.child_div1{
+ background-image: url(ebu/imm.jpg);
+width: 50%;
+margin: 30px 30px;
+padding: 20px;
+border-radius: 10px;
+}
+
+h4{
+  color: #FB7D17;
+}
+footer{
+  text-align: center;
 }
